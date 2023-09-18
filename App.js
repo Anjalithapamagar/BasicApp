@@ -15,7 +15,7 @@ export default function BasicApp(){
     
     return(
         <View style ={[styles.container, {backgroundColor:color}]}>
-            //task 
+    
             <TextInput style = {styles.textinput}
             onChangeText = {text=>onChangeText(text)}
             value = {value} clearTextonFocus = 'false'
@@ -53,6 +53,6 @@ export default function BasicApp(){
                 width: '100%',
                 padding:5,
                 margin:10
-            },
+            }
         }
     );
